@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'gamesfont';
+    src: url(game_of_squids/Game\ Of\ Squids.ttf);
+}
+
+body{
+    background : url(backr.jpg) no-repeat center center  fixed;
+    background-size: cover;
+}
+
+#comments{
+    font-family: 'proximanova',sans-serif;
+    color: red;
+    font-weight:lighter;
+}
+
+div h1{
+    font-size: 30px;
+    font-family:'gamesfont';
+    color: rgb(253, 249, 249);
+}
+
+div h2{
+    font-size: 27px;
+    font-family: 'abel';
+    color: rgb(248, 247, 247);
+}
+
+.everything{
+    text-align: center;
+    width: 100%;
+    height: 50vh;
+    margin-top: 18%;
+    border:solid, rgb(252, 250, 250);
+}
+
+#text{
+    border-radius: 8px;
+    border-style: none;
+    height: 40px;
+    width: 250px;
+}
+
+#button{
+    width: 80px;
+    height: 40px;
+    border-style: none;
+    border-radius: 8px;
+    background-color: rgb(79, 79, 187);
+    color: white;
+    font-weight: bold;
+}
